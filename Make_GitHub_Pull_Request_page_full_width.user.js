@@ -7,5 +7,5 @@
 elements = document.getElementsByClassName('container hentry');
 for (var index in elements)
 {
-	elements[index].style.width="100%";
+	elements[index].style.width="95%";	// Only 95% to leave room for the "add comment" tooltip icon.
 }
