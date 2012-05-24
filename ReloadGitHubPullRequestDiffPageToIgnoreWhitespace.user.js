@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        Reload GitHub Pull Request page to ignore whitespace
+// @name        Reload GitHub Pull Request Diff page to ignore whitespace
 // @namespace   https://bitbucket.org/deadlydog/greasemonkeyscripts
-// @description Reloads the GitHub Pull Request page, adjusting the URL to have the Diff ignore whitespace.
+// @description Reloads the GitHub Pull Request Diff page, adjusting the URL to have the diffs ignore whitespace.
 // @include     https://github.com/*/pull/*/files
 // @exclude     https://github.com/*/pull/*/files?w=1
 // @version     1.0
