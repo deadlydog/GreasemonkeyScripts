@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name           Make GitHub Pull Request page full width
-// @namespace      https://bitbucket.org/deadlydog/greasemonkeyscripts
-// @description    Makes the GitHub Pull Request page span the full width of the browser.
-// @include        https://github.com/*/pull/*
-// @exclude        https://github.com/*/pull/*?w=1
+// @name        Reload GitHub Pull Request page to ignore whitespace
+// @namespace   https://bitbucket.org/deadlydog/greasemonkeyscripts
+// @description Reloads the GitHub Pull Request page, adjusting the URL to have the Diff ignore whitespace.
+// @include     https://github.com/*/pull/*/files
+// @exclude     https://github.com/*/pull/*/files?w=1
+// @version     1.0
 // ==/UserScript==
-window.location.href=window.location.href + '?w=1'
+document.body.innerHTML='';
+window.location.href=window.location.href + '?w=1';
