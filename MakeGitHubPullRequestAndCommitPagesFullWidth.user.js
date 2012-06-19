@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name           Make GitHub Pull Request page full width
+// @name           Make GitHub Pull Request and Commit pages full width
 // @namespace      https://bitbucket.org/deadlydog/greasemonkeyscripts
-// @description    Makes the GitHub Pull Request page span the full width of the browser.
+// @description    Makes the GitHub Pull Request page and Commit page span the full width of the browser.
 // @include        https://github.com/*/pull/*
-// @version        1.1
+// @include        https://github.com/*/commit/*
+// @version        1.2
 // ==/UserScript==
 elements = document.getElementsByClassName('container hentry');
 for (var index in elements)
