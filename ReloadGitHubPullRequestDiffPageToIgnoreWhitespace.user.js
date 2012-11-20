@@ -4,7 +4,8 @@
 // @description Reloads the GitHub Pull Request Diff page, adjusting the URL to have the diffs ignore whitespace.
 // @include     https://github.com/*/pull/*/files
 // @exclude     https://github.com/*/pull/*/files?w=1
-// @version     1.0
+// @grant       none
+// @version     1.1
 // ==/UserScript==
 
 // Wipe out the head and body contents so that we don't wait for them to load before doing the redirect.

@@ -3,7 +3,8 @@
 // @namespace      https://bitbucket.org/deadlydog/greasemonkeyscripts
 // @description    Makes the GitHub Blob page span the full width of the browser.
 // @include        https://github.com/*/blob/*
-// @version        1.0
+// @grant          none
+// @version        1.1
 // ==/UserScript==
 
 elements = document.getElementsByClassName('container hentry');
