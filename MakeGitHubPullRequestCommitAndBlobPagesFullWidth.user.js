@@ -22,6 +22,7 @@ for (index = 0; index < elements.length; index++)
 	elements[index].style.width="96%";
 }
 
+// Remove the restriction that hides file names from view over a certain length, to use the available width of the element.
 elements = document.getElementsByClassName('css-truncate css-truncate-target');
 for (index = 0; index < elements.length; index++)
 {
