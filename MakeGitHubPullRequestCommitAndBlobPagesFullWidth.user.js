@@ -7,7 +7,7 @@
 // @include        https://github.com/*/commits/*
 // @include        https://github.com/*/blob/*
 // @grant          none
-// @version        1.5
+// @version        1.6
 // ==/UserScript==
 
 elements = document.getElementsByClassName('container');
