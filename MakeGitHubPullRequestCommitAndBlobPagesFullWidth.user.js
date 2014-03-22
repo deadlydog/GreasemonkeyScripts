@@ -21,3 +21,9 @@ for (index = 0; index < elements.length; index++)
 {
 	elements[index].style.width="96%";
 }
+
+elements = document.getElementsByClassName('css-truncate css-truncate-target');
+for (index = 0; index < elements.length; index++)
+{
+	elements[index].style.maxWidth="100%";
+}
