@@ -4,10 +4,9 @@
 // @description    Makes the GitHub Pull Request, Commit, and Blob pages span the full width of the browser, rather than maxing out at the default ~900 pixels.
 // @include        https://github.com/*/pull/*/files*
 // @include        https://github.com/*/commit/*
-// @include        https://github.com/*/commits/*
 // @include        https://github.com/*/blob/*
 // @grant          none
-// @version        1.6
+// @version        1.6.1
 // ==/UserScript==
 
 elements = document.getElementsByClassName('container');
